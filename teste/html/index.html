@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Script Book</title>
+</head>
+<body>
+    <div style="margin: 50px 10px">
+        <h2>Perfil</h2>
+        <button onclick="recolherPerfil()">Recolher</button>
+        <button onclick="extenderPerfil()">Extender</button>
+        <div id="perfil">
+            <p id="nome">Nome: </p>
+            <p id="sobrenome">Sobrenome: </p>
+            <button class="btn-red" onclick="red()">Letras vermelhas</button>
+            <button class="btn-green" onclick="green()">Letras Verdes</button>
+            <button onclick="black()">Redefinir</button>
+        </div>  
+        <hr>
+        <h2>Colors</h2>
+        <button onclick="recolherColors()">Recolher</button>
+        <button onclick="extenderColors()">Extender</button>
+        <div id="colors">
+    
+            <p id="color">Color: </p>
+        </div>
+        <hr>
+        <h2>WebSite info</h2>
+        <button onclick="recolherWebSiteInfo()">Recolher</button>
+        <button onclick="extenderWebSiteInfo()">Extender</button>
+        <div id="info">
+
+        </div>
+        <hr>
+        <h2>Date</h2>
+        <button onclick="recolherDate()">Recolher</button>
+        <button onclick="extenderDate()">Extender</button>
+        <div id="date">
+
+            <p id="date1">getDate(): </p>
+            <p id="date2">toDateString(): </p>
+            <p id="date3">getFullYear(): </p>
+        </div>
+    </div>
+    <script src="dados.js"></script>
+</body>
+</html>

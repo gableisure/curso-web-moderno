@@ -1,0 +1,27 @@
+.red {
+    color: #ce2300;
+}
+
+.green {
+    color: #009000;
+}
+
+.black {
+    color: #000;
+}
+
+.recolhe {
+    display: none;
+}
+
+.extende {
+    display: block;
+}
+
+.btn-red {
+    color: red;
+}
+
+.btn-green {
+    color: green;
+}
